@@ -3,7 +3,7 @@ $headercolor: #222 ;
 $white: #fff;
 $yello: #FCD980 ;
 $blue : #0084d7 ;
-
+$gray : #F4F6FC;
 
 
 
@@ -550,9 +550,124 @@ p{
     }
 }
 
+// ---------------------service------------
 
 
+#service{
+    padding: 100px 0;
+    .container{
+        .service__heading{
+            text-align: center;
+            p{
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 40px;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+            }
+            h2{
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 150%;
+                margin-bottom: 60px;
+            }
+        }.row{
+            row-gap: 25px;
+            .service__main{
+                background-color: $gray;
+                padding: 45px 25px 40px 40px;
+                border-radius: 8px;
+                .service__detail{
+                    h4{
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 32px;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
 
+// ----------------------footer--------------
+
+
+#footer{
+    padding: 100px;
+    background-color: $gray;
+    .container{
+        .row{
+            .logo{
+                img{
+                    width: 140px;
+                    margin-bottom: 40px;
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 28px;
+
+                }
+            }
+            .talk{
+                h4{
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 64px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+                .icon{
+                    display: flex;
+                    gap: 20px;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 45px;
+                        width: 45px;
+                        background: linear-gradient(135deg, rgba(0, 94, 199, 0.85), rgba(162, 0, 255, 0.8)) ;
+                        border-radius: 50%;
+                        font-size: 20px;
+                        color: $white;
+                    }
+                }
+            }
+            .list{
+                text-align: center;
+                h6{
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 100%;
+                    margin-bottom: 40px;
+                }
+                .footer__link{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    a{
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 100%;
+                        text-transform: capitalize;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
