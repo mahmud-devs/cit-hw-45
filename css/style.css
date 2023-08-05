@@ -368,8 +368,79 @@ p {
 }
 
 #team {
-  padding: 80px 0;
+  padding: 120px 0;
   background: linear-gradient(135deg, rgba(0, 94, 199, 0.85), rgba(162, 0, 255, 0.8)), url(../images/teambg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#team .container .team__heading {
+  text-align: center;
+}
+#team .container .team__heading p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+#team .container .team__heading h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 150%;
+  margin-bottom: 60px;
+  color: #fff;
+}
+#team .container .row .team__detail_main .team__detail {
+  width: 90%;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+#team .container .row .team__detail_main .team__detail .team__img {
+  width: 100%;
+  position: relative;
+}
+#team .container .row .team__detail_main .team__detail .team__img:hover .overlay {
+  opacity: 1111;
+  cursor: pointer;
+}
+#team .container .row .team__detail_main .team__detail .team__img img {
+  width: 100%;
+}
+#team .container .row .team__detail_main .team__detail .team__img .overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(26, 26, 26, 0.803);
+  height: 100%;
+  opacity: 0;
+  transition: all linear 0.3s;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 30px;
+  gap: 20px;
+}
+#team .container .row .team__detail_main .team__detail .team__img .overlay a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, rgba(0, 94, 199, 0.85), rgba(162, 0, 255, 0.8));
+  color: #fff;
+  font-size: 20px;
+}
+#team .container .row .team__detail_main .team__detail p {
+  margin-top: 20px;
+  color: #0084d7;
+}
+#team .container .row .team__detail_main .team__detail h4 {
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 
 #color_pick .container .color__main {
