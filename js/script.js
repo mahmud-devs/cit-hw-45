@@ -5,18 +5,19 @@ $(document).ready(function () {
 });
 
 $(function(){
-    $('#blue').click(blue);
     $('#white').click(white);
+    $('#blue').click(blue);    
     $('#black').click(black);
     $('#red').click(red);
     $('#purple').click(purple);
 
-    function blue() {
-    $('body').attr('class', 'blue');
-    }
+
     function white() {
     $('body').attr('class', 'white');
     }
+    function blue() {
+    $('body').attr('class', 'blue');
+    }    
     function black() {
     $('body').attr('class', 'black');
     }

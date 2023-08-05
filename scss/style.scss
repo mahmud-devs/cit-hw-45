@@ -24,6 +24,21 @@ h1,h2,h3,h4,h5,h6,p,a{
     line-height: 0.8;
     font-family: 'Poppins', sans-serif;
 }
+
+// .blue h1,h2,h3,h4,h5,h6,p,a{
+//     color: $white;
+// }
+
+.container{
+    width: 1260px;
+}
+
+
+
+// font-family: 'Poppins', sans-serif
+
+
+// -----------------white--------------
 .white h1,h2,h3,h4,h5,h6,a{
     color: $headercolor;
 }
@@ -33,23 +48,44 @@ h1,h2,h3,h4,h5,h6,p,a{
 p{
     color: $peracolor;
 }
-// .blue h1,h2,h3,h4,h5,h6,p,a{
+// ------------------white-------------
+
+// ---------------------blue-----------
+// .blue h1,h2,h3,h4,h5,h6,a{
+//     color: $white;
+// }
+// .blue p{
 //     color: $white;
 // }
 
-.container{
-    width: 1260px;
-}
+// .blue{
+//     background: #0084d7 !important;
+// }
 
-.blue{
-    background: #0084d7 !important;
-}
+// .blue nav{
+//     background: #0084d7 !important;
+// }
 
-.blue nav{
-    background: #0084d7 !important;
-}
 
-// font-family: 'Poppins', sans-serif
+
+
+
+
+
+// ---------------------blue-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // -----------------color switcher-----------
@@ -288,7 +324,58 @@ p{
     }
 }
 
+// -------------------blog--------------
 
+#blog{
+    padding: 50px 0;
+    .container{
+        h4{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 64px;
+            margin-bottom: 64px;
+        }
+        .row{
+            .blog__main{
+                .blog_item{
+                    img{
+                        width: 100%;
+                    }
+                    h6{
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: rgba(40, 41, 56, 0.7);
+                        margin-top: 40px;
+                    }
+                    h4{
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        margin: 14px 0;
+                    }
+                    p{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: rgba(40, 41, 56, 0.7);
+                        margin-bottom: 28px;
+                    }
+                    a{
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

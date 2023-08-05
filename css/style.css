@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  width: 1260px;
+}
+
 .white h1, h2, h3, h4, h5, h6, a {
   color: #222;
 }
@@ -28,18 +32,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 p {
   color: #444;
-}
-
-.container {
-  width: 1260px;
-}
-
-.blue {
-  background: #0084d7 !important;
-}
-
-.blue nav {
-  background: #0084d7 !important;
 }
 
 #color_pick .container .color__main .color ul li:nth-child(1) {
@@ -230,6 +222,49 @@ p {
   font-size: 16px;
   line-height: 140%;
   margin-top: 10px;
+}
+
+#blog {
+  padding: 50px 0;
+}
+#blog .container h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 64px;
+}
+#blog .container .row .blog__main .blog_item img {
+  width: 100%;
+}
+#blog .container .row .blog__main .blog_item h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(40, 41, 56, 0.7);
+  margin-top: 40px;
+}
+#blog .container .row .blog__main .blog_item h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 14px 0;
+}
+#blog .container .row .blog__main .blog_item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(40, 41, 56, 0.7);
+  margin-bottom: 28px;
+}
+#blog .container .row .blog__main .blog_item a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 #color_pick .container .color__main {
