@@ -39,12 +39,33 @@ h1,h2,h3,h4,h5,h6,p,a{
 
 
 // -----------------white--------------
-.white h1,h2,h3,h4,h5,h6,a{
+
+.white h1{
     color: $headercolor;
 }
+.white h2{
+    color: $headercolor;
+}
+.white h3{
+    color: $headercolor;
+}
+.white h4{
+    color: $headercolor;
+}
+.white h5{
+    color: $headercolor;
+}
+.white h6{
+    color: $headercolor;
+}
+.white a{
+    color: $headercolor;
+}
+
 .white p{
     color: $peracolor;
 }
+
 p{
     color: $peracolor;
 }
@@ -57,22 +78,89 @@ p{
 // .blue p{
 //     color: $white;
 // }
+.blue{
+    background: #0084d7 !important;
+}
 
-// .blue{
-//     background: #0084d7 !important;
-// }
+.blue nav{
+    background: #0084d7 !important;
+}
+.blue h1{
+    color: $white;
+}
+.blue h2{
+    color: $white;
+}
+.blue h3{
+    color: $white;
+}
+.blue h4{
+    color: $white;
+}
+.blue h5{
+    color: $white;
+}
+.blue h6{
+    color: $white;
+}
+.blue a{
+    color: $blue;
+}
 
-// .blue nav{
-//     background: #0084d7 !important;
-// }
-
-
-
-
-
+.blue p{
+   color: $white; 
+}
 
 
 // ---------------------blue-----------
+
+// -----------------black-----------
+
+.black{
+    background: $headercolor;
+}
+
+.black h1{
+    color: $yello;
+}
+.black h2{
+    color: $yello;
+}
+.black h3{
+    color: $yello;
+}
+.black h4{
+    color: $yello;
+}
+.black h5{
+    color: $yello;
+}
+.black h6{
+    color: $yello;
+}
+.black  a{
+    color: $yello;
+}
+
+.black p{
+    color: $white;
+}
+
+// .black #team{
+//     background: linear-gradient(135deg,rgba(95, 66, 3, 0.85),rgba(154, 241, 47, 0.8)) ,url(../images/teambg.jpg) ;
+// }
+
+
+
+
+
+
+
+
+// -----------------black-----------
+
+
+
 
 
 
@@ -92,11 +180,12 @@ p{
 
 
 #color_pick .container .color__main .color ul li:nth-child(1){
-    background: #0084d7;
+    background:#fff;
   }
 
 #color_pick .container .color__main .color ul li:nth-child(2){
-    background:#fff;
+    
+    background: #0084d7;
   }
 
 
@@ -327,7 +416,7 @@ p{
 // -------------------blog--------------
 
 #blog{
-    padding: 50px 0;
+    padding: 50px 0 80px 0;
     .container{
         h4{
             font-style: normal;
@@ -376,6 +465,21 @@ p{
         }
     }
 }
+
+// --------------------team--------------
+
+#team{
+    padding: 80px 0;
+    background: linear-gradient(135deg,rgba(0,94,199,.85),rgba(162,0,255,.8)) ,url(../images/teambg.jpg) ;
+}
+
+
+
+
+
+
+
+
 
 
 
