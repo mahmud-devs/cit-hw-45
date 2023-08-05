@@ -2,7 +2,7 @@ $peracolor: #444 ;
 $headercolor: #222 ;
 $white: #fff;
 $yello: #FCD980 ;
-
+$blue : #0084d7 ;
 
 
 
@@ -30,9 +30,12 @@ h1,h2,h3,h4,h5,h6,p,a{
 .white p{
     color: $peracolor;
 }
-.blue h1,h2,h3,h4,h5,h6,p,a{
-    color: $white;
+p{
+    color: $peracolor;
 }
+// .blue h1,h2,h3,h4,h5,h6,p,a{
+//     color: $white;
+// }
 
 .container{
     width: 1260px;
@@ -45,6 +48,9 @@ h1,h2,h3,h4,h5,h6,p,a{
 .blue nav{
     background: #0084d7 !important;
 }
+
+// font-family: 'Poppins', sans-serif
+
 
 // -----------------color switcher-----------
 
@@ -158,7 +164,142 @@ h1,h2,h3,h4,h5,h6,p,a{
     }
 }
 
-// -------------button-----------
+
+// -------------------about------------
+
+#about{
+    padding: 100px 0 80px 0;
+    .container{
+        .row{
+            align-items: center;
+            .about__heading_main{
+                .about__heading{
+                    h6{
+                        font-size: 14px;
+                        font-weight: 300;
+                        margin-bottom: 10px;
+                        text-transform: uppercase;
+                    }
+                    h2{
+                        font-size: 32px;
+                        font-weight: 400;
+                        font-family: 'Abril Fatface', cursive;
+                        margin-bottom: 30px;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+                .about__p{
+                    margin-left: 30px;
+                    margin-top: 30px;
+                    p{
+                        margin-bottom: 30px;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+                .about__btn{
+                    display: flex;
+                    gap: 30px;
+                    a{
+                        padding: 15px 20px;
+                        background-color: #fff;
+                        font-size: 20px;
+                        font-weight: 500;
+                        box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
+                        transition: all linear 0.2s;
+                        border-radius: 5px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// -------------------tool-------------
+
+#tool{
+    padding: 100px 0 80px 0;
+    .container{
+        .row{
+            .tool__heading{
+                text-align: center;
+                margin-bottom: 60px;
+                h6{
+                    color: $blue;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 150%;
+                }
+                h2{
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 140%;
+                }
+            }
+            .tool__img{
+                position: relative;
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 200%;
+                }
+                img{
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+            }
+            .tool__service{
+                display: flex;
+                flex-wrap:wrap;
+                gap: 35px;
+                .service_content{
+                    padding: 22px 28px;
+                      padding-right: 36px;
+                    background-color: #F0EDFF;
+                    border-radius: 15px;
+                    display: flex;
+                    gap: 40px;
+                    padding-right: 60px;
+                    .content_detail{
+                        h3{
+                            font-weight: 600;
+                            font-size: 28px;
+                            line-height: 140%;
+                        }
+                        p{
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 140%;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// -------------color switcher-----------
 
 
 #color_pick{
