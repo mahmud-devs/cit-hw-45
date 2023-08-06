@@ -79,11 +79,11 @@ p{
 //     color: $white;
 // }
 .blue{
-    background: #0084d7 !important;
+    background: linear-gradient(135deg, rgba(0, 94, 199, 0.85), rgba(162, 0, 255, 0.8)) !important ;
 }
 
 .blue nav{
-    background: #0084d7 !important;
+    background: $white !important;
 }
 .blue h1{
     color: $white;
@@ -110,6 +110,34 @@ p{
 .blue p{
    color: $white; 
 }
+
+
+.blue #tool .container .row .tool__heading h6 {
+	color: $white ;
+}
+
+.blue #tool .container .row .tool__service .service_content {
+
+    background-color: rgba(68, 68, 68, 0.67);
+
+}
+
+.blue #service .container .row .service__main {
+    background-color: rgba(68, 68, 68, 0.67);
+}
+
+
+.blue #footer {
+    background-color: $peracolor;
+}
+
+
+
+
+
+
+
+
 
 
 // ---------------------blue-----------
@@ -394,8 +422,10 @@ p{
                     display: flex;
                     gap: 40px;
                     padding-right: 60px;
+                    align-items: center;
                     img{
-                        width: 100px;
+                        width: 120px;
+                        height: 120px;
                     }
                     .content_detail{
                         h3{
@@ -498,6 +528,7 @@ p{
             }
         }
         .row{
+            row-gap: 40px;
             .team__detail_main{                
                 .team__detail{
                     width: 90%;
@@ -696,7 +727,6 @@ p{
             position: fixed;
             right: 50px;
             top: 200px;
-            background-color: #FCD980;
             .setting{
                 display: flex;
                 align-items: center;
@@ -704,6 +734,7 @@ p{
                 width: 40px;
                 height: 40px;
                 background-color: aqua;
+                border-radius: 0 0 20px 20px;
                 &:hover{
                     .color{
                         ul{
@@ -713,7 +744,10 @@ p{
                 }
             }
             .color{
-                display: block;
+                opacity: 11;
+                padding: 10px 0 ;
+                background-color: rgba(52, 73, 94, 0.76);
+                border-radius: 20px 20px 0 0;
                 ul{
                     padding: 0;
                     margin: 0;                    
@@ -742,7 +776,7 @@ p{
 
 
 .activate{
-    display: none !important;
+    opacity: 0 !important;
 }
 
 
