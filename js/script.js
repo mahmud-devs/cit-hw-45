@@ -1,6 +1,7 @@
 $(document).ready(function () {
      $('.setting').click(function () {
          $('.color').toggleClass('activate');
+         $('.setting').toggleClass('activation');
      });
 });
 

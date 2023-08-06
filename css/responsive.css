@@ -241,7 +241,7 @@
 
 #color_pick .container .color__main .setting {
 	width: 30px;
-	height: 35px;
+	height: 30px;
 	font-size: 12px;
 }
 
@@ -252,12 +252,21 @@
 
 #color_pick .container .color__main {
 	position: fixed;
-	right: 20px;
+	right: 18px;
 	/* top: 160px; */
-	bottom: 75px;
+	bottom: 65px;
 }
 
+/* -----------bottom to top--------- */
 
+
+.bottom_to_top {
+	width: 25px;
+	height: 25px;
+	right: 20px;
+	bottom: 25px;
+	font-size: 15px;
+}
 
 
 }
@@ -540,7 +549,7 @@
 
 /* -----------color switcher---------- */
 
-#color_pick .container .color__main .setting {
+/* #color_pick .container .color__main .setting {
 	width: 35px;
 	height: 38px;
 	font-size: 14px;
@@ -554,7 +563,7 @@
 	position: fixed;
 	right: 25px;
 	bottom: 75px;
-}
+} */
 
 
 
