@@ -59,7 +59,11 @@ p {
 }
 
 .blue nav {
-  background: #fff !important;
+  background: #000 !important;
+}
+
+.blue .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #0084d7;
 }
 
 .blue h1 {
@@ -110,40 +114,174 @@ p {
   background-color: #444;
 }
 
+.blue #blog .container .row .blog__main .blog_item h6 {
+  color: #ffbb00;
+}
+
+.blue #blog .container .row .blog__main .blog_item p {
+  color: #fff;
+}
+
+.blue #blog .container .row .blog__main .blog_item a {
+  color: #ffbb00;
+}
+
+.blue #team .container .row .team__detail_main .team__detail h4 {
+  color: #222;
+}
+
 .black {
   background: #222;
 }
 
+.black nav {
+  background: #000 !important;
+}
+
+.black .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #ffbb00;
+}
+
 .black h1 {
-  color: #FCD980;
+  color: #ffbb00;
 }
 
 .black h2 {
-  color: #FCD980;
+  color: #ffbb00;
 }
 
 .black h3 {
-  color: #FCD980;
+  color: #ffbb00;
 }
 
 .black h4 {
-  color: #FCD980;
+  color: #ffbb00;
 }
 
 .black h5 {
-  color: #FCD980;
+  color: #ffbb00;
 }
 
 .black h6 {
-  color: #FCD980;
+  color: #ffbb00;
 }
 
 .black a {
-  color: #FCD980;
+  color: #ffbb00;
 }
 
 .black p {
   color: #fff;
+}
+
+.black #tool .container .row .tool__service .service_content {
+  background-color: #4530B1;
+}
+
+.black #blog .container .row .blog__main .blog_item h6 {
+  color: #fff;
+}
+
+.black #blog .container .row .blog__main .blog_item p {
+  color: #fff;
+}
+
+.black #team {
+  background: linear-gradient(135deg, rgba(100, 99, 98, 0.85), rgba(0, 0, 0, 0.8)), url(../images/teambg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.black #service .container .row .service__main {
+  background-color: #363942;
+}
+
+.black #footer {
+  background-color: rgba(85, 64, 8, 0.8);
+}
+
+.orange {
+  background: #f68420;
+}
+
+.orange nav {
+  background: #000 !important;
+}
+
+.orange .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #f68420;
+}
+
+.orange h1 {
+  color: #fff;
+}
+
+.orange h2 {
+  color: #fff;
+}
+
+.orange h3 {
+  color: #fff;
+}
+
+.orange h4 {
+  color: #fff;
+}
+
+.orange h5 {
+  color: #fff;
+}
+
+.orange h6 {
+  color: #fff;
+}
+
+.orange a {
+  color: #fff;
+}
+
+.orange p {
+  color: #F4F6FC;
+}
+
+.orange #about .container .row .about__heading_main .about__btn a {
+  color: #0ca684;
+}
+
+.orange #tool .container .row .tool__heading h6 {
+  color: #F4F6FC;
+}
+
+.orange #tool .container .row .tool__service .service_content {
+  background-color: #3E29A4;
+}
+
+.orange #blog .container .row .blog__main .blog_item h6 {
+  color: #F4F6FC;
+}
+
+.orange #blog .container .row .blog__main .blog_item p {
+  color: #F4F6FC;
+}
+
+.orange #team {
+  background: linear-gradient(135deg, rgba(12, 135, 166, 0.816), rgba(0, 230, 119, 0.815)), url(../images/teambg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.orange #team .container .row .team__detail_main .team__detail h4 {
+  color: #0ca684;
+}
+
+.orange #service .container .row .service__main {
+  background-color: rgba(76, 7, 7, 0.7411764706);
+}
+
+.orange #footer {
+  background-color: rgba(81, 18, 18, 0.9098039216);
 }
 
 #color_pick .container .color__main .color ul li:nth-child(1) {
@@ -159,7 +297,7 @@ p {
 }
 
 #color_pick .container .color__main .color ul li:nth-child(4) {
-  background: #cf455c;
+  background: #f68420;
 }
 
 #color_pick .container .color__main .color ul li:nth-child(5) {
@@ -187,6 +325,15 @@ p {
 }
 .nav .container img {
   width: 150px;
+}
+.nav .container .nav__main ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  transition: all linear 0.2s;
+}
+.nav .container .nav__main ul li a:hover {
+  color: #f68420;
 }
 
 #banner {
@@ -571,7 +718,7 @@ p {
 #color_pick .container .color__main {
   position: fixed;
   right: 50px;
-  top: 200px;
+  bottom: 75px;
 }
 #color_pick .container .color__main .setting {
   display: flex;

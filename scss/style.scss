@@ -4,7 +4,10 @@ $white: #fff;
 $yello: #FCD980 ;
 $blue : #0084d7 ;
 $gray : #F4F6FC;
-
+$dyello:#ffbb00 ;
+$orange : #f68420;
+$green: #0ca684;
+$pink : #ff7676;
 
 
 *{
@@ -83,8 +86,13 @@ p{
 }
 
 .blue nav{
-    background: $white !important;
+    background: #000 !important;
 }
+.blue .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+	color: $blue;
+}
+
+
 .blue h1{
     color: $white;
 }
@@ -131,12 +139,21 @@ p{
     background-color: $peracolor;
 }
 
+.blue #blog .container .row .blog__main .blog_item h6 {
+	color: $dyello;
+}
 
+.blue #blog .container .row .blog__main .blog_item p {
+	color: $white;
+}
 
+.blue #blog .container .row .blog__main .blog_item a {
+	color: $dyello;
+}
 
-
-
-
+.blue #team .container .row .team__detail_main .team__detail h4 {
+	color: $headercolor;
+}
 
 
 
@@ -147,54 +164,157 @@ p{
 .black{
     background: $headercolor;
 }
+.black nav{
+    background: #000 !important;
+}
+.black .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+	color: $dyello;
+}
+
 
 .black h1{
-    color: $yello;
+    color: $dyello;
 }
 .black h2{
-    color: $yello;
+    color: $dyello;
 }
 .black h3{
-    color: $yello;
+    color: $dyello;
 }
 .black h4{
-    color: $yello;
+    color: $dyello;
 }
 .black h5{
-    color: $yello;
+    color: $dyello;
 }
 .black h6{
-    color: $yello;
+    color: $dyello;
 }
 .black  a{
-    color: $yello;
+    color: $dyello;
 }
 
 .black p{
     color: $white;
 }
 
-// .black #team{
-//     background: linear-gradient(135deg,rgba(95, 66, 3, 0.85),rgba(154, 241, 47, 0.8)) ,url(../images/teambg.jpg) ;
-// }
+.black #tool .container .row .tool__service .service_content {
+	background-color: #4530B1;
+}
+
+
+.black #blog .container .row .blog__main .blog_item h6 {
+	color: $white;
+}
+
+.black #blog .container .row .blog__main .blog_item p {
+	color: $white;
+}
 
 
 
 
+.black #team{
+    background: linear-gradient(135deg,rgba(100, 99, 98, 0.85),rgba(0, 0, 0, 0.8)) ,url(../images/teambg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.black #service .container .row .service__main {
+	background-color: #363942;
+
+}
 
 
 
+.black #footer {
+	background-color: #554008cc;
+}
 
 // -----------------black-----------
 
 
+// -----------------orange----------
+
+.orange{
+    background: $orange;
+}
+
+.orange nav{
+    background: #000 !important;
+}
+.orange .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+	color: $orange;
+}
 
 
+.orange h1{
+    color: $white;
+}
+.orange h2{
+    color: $white;
+}
+.orange h3{
+    color: $white;
+}
+.orange h4{
+    color: $white;
+}
+.orange h5{
+    color: $white;
+}
+.orange h6{
+    color: $white;
+}
+.orange  a{
+    color: $white;
+}
+
+.orange p{
+    color: $gray;
+}
 
 
+.orange #about .container .row .about__heading_main .about__btn a {
+    color: $green;
+}
 
+.orange #tool .container .row .tool__heading h6 {
+	color: $gray;
+}
 
+.orange #tool .container .row .tool__service .service_content {
+	background-color: #3E29A4;
+}
 
+.orange #blog .container .row .blog__main .blog_item h6 {
+    color: $gray;
+}
+
+.orange #blog .container .row .blog__main .blog_item p {
+	color: $gray;
+}
+
+.orange #team{
+    background: linear-gradient(135deg,rgba(12, 135, 166, 0.816) ,rgba(0, 230, 119, 0.815) ) ,url(../images/teambg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orange #team .container .row .team__detail_main .team__detail h4 {
+    color: $green;
+}
+
+.orange #service .container .row .service__main {
+	background-color: #4C0707BD;
+}
+
+.orange #footer {
+	background-color: #511212E8;
+}
 
 
 
@@ -223,7 +343,7 @@ p{
 
 
   #color_pick .container .color__main .color ul li:nth-child(4){
-    background:#cf455c;
+    background:#f68420;
   }
 
 
@@ -262,6 +382,21 @@ p{
     .container{
         img{
             width: 150px;
+        }
+        .nav__main{
+            ul{
+                li{
+                    a{
+                        font-weight: 500;
+                        font-size: 18px;
+                        text-transform: capitalize;
+                        transition: all linear 0.2s;
+                        &:hover{
+                            color: $orange;
+                        }
+                    }
+                }
+            }
         }
         
     }
@@ -726,7 +861,7 @@ p{
         .color__main{
             position: fixed;
             right: 50px;
-            top: 200px;
+            bottom: 75px;
             .setting{
                 display: flex;
                 align-items: center;

@@ -8,7 +8,7 @@ $(function(){
     $('#white').click(white);
     $('#blue').click(blue);    
     $('#black').click(black);
-    $('#red').click(red);
+    $('#orange').click(orange);
     $('#purple').click(purple);
 
 
@@ -21,8 +21,8 @@ $(function(){
     function black() {
     $('body').attr('class', 'black');
     }
-    function red() {
-    $('body').attr('class', 'red');
+    function orange() {
+    $('body').attr('class', 'orange');
     }
     function purple() {
     $('body').attr('class', 'purple');
