@@ -377,6 +377,10 @@ p{
 
 // ---------------------------nav--------------------
 
+.navbar-toggler{
+    background-color: $gray;
+}
+
 .nav{
     padding: 20px;
     .container{

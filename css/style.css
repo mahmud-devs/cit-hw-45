@@ -320,6 +320,10 @@ p {
   background: #34495e;
 }
 
+.navbar-toggler {
+  background-color: #F4F6FC;
+}
+
 .nav {
   padding: 20px;
 }
