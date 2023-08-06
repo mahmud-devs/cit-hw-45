@@ -18,10 +18,6 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-family: "Poppins", sans-serif;
 }
 
-.container {
-  width: 1260px;
-}
-
 .white h1 {
   color: #222;
 }
@@ -312,6 +308,9 @@ p {
   gap: 40px;
   padding-right: 60px;
 }
+#tool .container .row .tool__service .service_content img {
+  width: 100px;
+}
 #tool .container .row .tool__service .service_content .content_detail h3 {
   font-weight: 600;
   font-size: 28px;
@@ -333,6 +332,10 @@ p {
   font-size: 48px;
   line-height: 64px;
   margin-bottom: 64px;
+}
+#blog .container .row {
+  row-gap: 50px;
+  justify-content: center;
 }
 #blog .container .row .blog__main .blog_item img {
   width: 100%;
