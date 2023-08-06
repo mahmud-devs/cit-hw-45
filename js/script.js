@@ -1,5 +1,5 @@
 $(document).ready(function () {
-     $('span').click(function () {
+     $('.setting').click(function () {
          $('.color').toggleClass('activate');
      });
 });
@@ -28,10 +28,10 @@ $(function(){
     $('body').attr('class', 'purple');
     }
 
-    // $('span').click(function () {
+    // $('.setting').click(function () {
     //     $('.color').fadeOut(600);
     // });
-    // $('span').click(function () {
+    // $('.setting').click(function () {
     //     $('.color').fadeIn(600);
     // });
 
