@@ -847,7 +847,7 @@
 
 /* -----------color switcher---------- */
 
-#color_pick .container .color__main .setting {
+/* #color_pick .container .color__main .setting {
 	width: 40px;
 	height: 40px;
 	font-size: 16px;
@@ -861,7 +861,7 @@
 	right: 30px;
 	bottom: 75px;
 }
-
+ */
 
 
 
@@ -910,11 +910,11 @@
 
 /* ---------------color switcher-------------- */
 
-#color_pick .container .color__main {
+/* #color_pick .container .color__main {
 	position: fixed;
 	right: 40px;
 	bottom: 75px;
-}
+} */
 
 
 
